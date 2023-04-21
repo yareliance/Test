@@ -28,7 +28,7 @@ async function testTaxiResult() {
     await toInput.type('Комсомольский проспект, 18');
 
     await page.screenshot({path: 'testTaxiResult.png'});
-
+    
     console.log('Закрытие браузера');
     await browser.close();
 }
